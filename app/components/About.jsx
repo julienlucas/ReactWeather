@@ -3,12 +3,23 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About Component</h1>
-      <p>Ceci est une application React conçue en React. J'ai construis cette application pour apprendre à créer des applications React. Contactez-moi si vous êtes intéréssé pour que nous créeons votre app React ensemble.</p>
-      <p>Voici quelque outils que j'utilise:</p>
+      <h1 className="text-center">About</h1>
+      <p>
+        This is a weather application build on React. I have built this
+        for The Complete React Web App Developer Course.
+      </p>
+      <p>
+        Here are some of the tools I used:
+      </p>
       <ul>
-        <li><a href="https://facebook.github.io/react">React</a> - ceci était le JavaScript utilisé.</li>
-        <li><a href="https://openweathermap.org">Open Weather Map</a> - ceci est l'API que j'ai utilisé pour les températures.</li>
+        <li>
+          <a href="https://facebook.github.io/react">React</a> - This was the
+            JavaScript framework used.
+        </li>
+        <li>
+          <a href="http://openweathermap.org">Open Weather Map</a> - I used
+            Open Weather Map to search for weather data by city name.
+        </li>
       </ul>
     </div>
   )
